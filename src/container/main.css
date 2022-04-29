@@ -1,0 +1,8 @@
+body{
+    background-color: #eeeeee;
+}
+.main{
+    width:1500px;
+    overflow: hidden;
+    margin:0 auto;
+}

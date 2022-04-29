@@ -1,0 +1,14 @@
+.section6{
+    text-align: center;
+    background-color: #000;
+    color:#fff;
+    height:60px;
+    padding-top:20px;
+    display: flex;
+    justify-content: center;
+    font-size:12px;
+}
+
+.section6 a{
+    padding: 0 10px;
+}

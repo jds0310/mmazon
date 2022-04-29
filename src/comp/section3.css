@@ -1,0 +1,24 @@
+.section3{
+    margin:30px 25px;
+    background-color: #fff;
+    display:flex;
+    flex-direction: column;
+
+}
+.section3 h3:hover{
+    cursor: pointer;
+    color:rgb(90, 90, 90);
+}
+.section3 .text-box{
+    padding-left:30px;
+}
+.section3 .img-box{
+    width:100%;
+    height:300px;
+    overflow-x: scroll;
+    display:flex;
+}
+
+.section3 img{
+    padding:30px;
+}

@@ -1,0 +1,171 @@
+.header{
+    width:100%;
+    display: flex;
+    background-color: rgb(19, 25, 33);
+    color:#fff;
+    align-items: center;
+    height:60px;
+    position: fixed;
+    z-index: 1001;
+}
+
+/*** left-box ***/
+
+.left-box{
+    width:300px;
+    height:60px;
+    display:flex;
+}
+.left-box img{
+    width:140px;
+}
+.left-box>img:hover{
+    cursor: pointer;
+}
+.text-box1{
+    display: flex;
+    padding-top:10px;
+    padding-right:7px;
+    text-align: left;
+}
+.text-box1:hover{
+    cursor: pointer;
+}
+.text-box1 img{
+    width:20px;
+    height:23px;
+    margin-top:11px;
+}
+.text-box1-subbox{
+    display:flex;
+    flex-direction: column;
+}
+.text-box1 span:first-child{
+    font-size:12px;
+    font-weight: 400;
+    color:#dfdede;
+}
+.text-box1 span:last-child{
+    font-size:14px;
+    font-weight: 700;
+}
+
+/*** middle-box ***/
+
+.middle-box{
+    width:1200px;
+    float:left;
+    padding-left:20px;
+
+}
+.middle-box span{
+    border: 1px solid #333;
+    display: inline-block;
+    width:50px;
+    height:40px;
+    vertical-align: middle;
+}
+.middle-box .text-list{
+    background-color: rgb(235, 235, 235);
+    color:#000;
+    font-size:12px;
+    padding:10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.text-list{
+    display:flex;
+    position: relative;
+}
+.text-list:hover{
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+.text-list span{
+    border:none;
+    position: absolute;
+}
+.text-list span:last-child{
+    left:26px;
+    top:10px;
+    font-size:18px;
+    color:rgb(95, 94, 94);
+}
+
+.search-bar{
+    width:91%;
+    height:40px;
+}
+.text-search{
+    background-color: rgb(233, 174, 64);
+    padding-top:5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align:center ;
+    color:#000;
+    font-size:30px;
+}
+.text-search:hover{
+    background-color: rgb(235, 165, 36);
+    cursor: pointer;
+}
+/*** right-box ***/
+
+.right-box{
+    width:15%;
+    display:flex;
+    padding-left:20px;
+}
+
+.right-box .cont{
+    width:50px;
+    height:25px;
+    margin:20px 10px 10px 10px;
+}
+.right-box .cont:hover{
+    cursor: pointer;
+}
+.text-box2{
+    display:flex;
+    flex-direction: column;
+    padding-top:10px;
+    padding-left:20px;
+}
+
+.text-box2:hover{
+    cursor: pointer;
+    color:rgb(184, 184, 184);
+}
+
+.text-box2 span:first-child{
+    font-size: 12px;
+}
+.text-box2 span:last-child, .text-box3 span:first-child{
+    font-size: 14px;
+    font-weight: 700;
+}
+.text-box3{
+    display:flex;
+    flex-direction: column;
+    padding-top:10px;
+    padding-left:20px;
+}
+
+.text-box3:hover{    
+    cursor: pointer;
+    color:rgb(184, 184, 184);
+}
+
+.text-box3 span:first-child{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+.cart{
+    margin-left: 20px;
+}
+
+.cart:hover{
+    cursor: pointer;
+}
